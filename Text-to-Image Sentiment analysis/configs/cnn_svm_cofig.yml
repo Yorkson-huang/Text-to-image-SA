@@ -1,0 +1,8 @@
+feature_params:
+  feature_dim: 512
+  batch_size: 32
+
+svm_params:
+  C: [0.1, 1, 10]
+  gamma: [0.01, 0.1, 1]
+  cv_folds: 5

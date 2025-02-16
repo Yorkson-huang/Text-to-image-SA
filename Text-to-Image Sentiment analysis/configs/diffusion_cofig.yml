@@ -1,0 +1,7 @@
+model_params:
+  pretrained_model: "stabilityai/stable-diffusion-2-base"
+  image_size: 512
+  steps: 50
+
+data_path: "../data/reviews.csv"
+output_dir: "../results/generated_images"
